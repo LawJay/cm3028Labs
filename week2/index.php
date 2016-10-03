@@ -47,5 +47,10 @@ $myArray = array("do","re","mi");
     echo $myArray[1];
     unset($myArray[2]);
 
+$lol = array("Specs","Mugs","Sausage Rolls");
+    foreach($lol as $x){
+        print "<p>$x</p>";
+    }
+
 
 

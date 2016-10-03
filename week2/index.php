@@ -54,5 +54,11 @@ unset($lol[2]);
         print "<p>$x</p>";
     }
 
+for ($i = 1; $i < 10; $i ++){
+    $counter = 0;
+    print "I can count to " . $counter;
+        $counter ++;
+}
+
 
 

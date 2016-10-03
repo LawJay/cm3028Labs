@@ -48,6 +48,8 @@ $myArray = array("do","re","mi");
     unset($myArray[2]);
 
 $lol = array("Specs","Mugs","Sausage Rolls");
+$lol[1] = "Hugs";
+unset($lol[2]);
     foreach($lol as $x){
         print "<p>$x</p>";
     }

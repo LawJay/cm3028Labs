@@ -7,7 +7,10 @@
  */
 
 echo "Hello World";
+echo "\r\n";
 $myname = "Bilbo Baggins";
 $myage = 111;
 echo "My name is" . $myname . "and i am " . $myage;
+
+echo "\r\n";
 

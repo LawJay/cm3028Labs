@@ -45,7 +45,7 @@ $myArray = array("do","re","mi");
     echo $myArray[0];
     $myArray[1] = "La";
     echo myArray[1];
-    unset($array[2]);
+    unset($myArray[2]);
 
 
 

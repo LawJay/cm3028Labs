@@ -7,4 +7,7 @@
  */
 
 echo "Hello World";
+$myname = "Bilbo Baggins";
+$myage = 111;
+echo "My name is" . $myname . "and i am " . $myage;
 

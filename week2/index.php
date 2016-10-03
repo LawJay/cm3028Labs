@@ -41,4 +41,11 @@ switch ($numberofhobbits){
         echo "All the hobbits have gone home";
 
 }
+$myArray = array("do","re","mi");
+    echo $myArray[0];
+    $myArray[1] = "La";
+    echo myArray[1];
+    unset($array[2]);
+
+
 

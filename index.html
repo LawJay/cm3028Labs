@@ -1,17 +1,71 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>CM30287 Lab Work</title>
+    <style>
+        .flex-container {
+            display: -webkit-flex;
+            display: flex;
+            -webkit-flex-flow: row wrap;
+            flex-flow: row wrap;
+            text-align: center;
+        }
+
+        .flex-container > * {
+            padding: 15px;
+            -webkit-flex: 1 100%;
+            flex: 1 100%;
+        }
+
+        .article {
+            text-align: left;
+        }
+
+        header {background: purple;color:white;}
+        footer {background: #aaa;color:white;}
+        .nav {background:#eee;}
+
+        .nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .nav ul a {
+            text-decoration: none;
+        }
+
+        @media all and (min-width: 768px) {
+            .nav {text-align:left;-webkit-flex: 1 auto;flex:1 auto;-webkit-order:1;order:1;}
+            .article {-webkit-flex:5 0px;flex:5 0px;-webkit-order:2;order:2;}
+            footer {-webkit-order:3;order:3;}
+        }
+    </style>
 </head>
 <body>
-<h1>This is my CM028 Lab Work</h1>
-<ul>
-    <li><a href="week2/index.php">Week 2 Work</a></li>
-    <li><a href="week3/week3sql.php"> Week 3 select all script</a></li>
-    <li><a href="week3/week3sql2.php"> Week 3 select Marvel Studios script</a></li>
-    <li><a href="week3/week3sql3.php"> Week 3 select over 2010 script</a></li>
-    <li><a href="week3/week3php4.php"> Week 3 select XMen script</a></li>
-</ul>
+
+<div class="flex-container">
+    <header>
+        <h1>Jamie Law Web Dev Work</h1>
+    </header>
+
+    <nav class="nav">
+        <ul>
+            <li><a href="week2/index.php">Week 2 Work</a></li>
+            <li><a href="week3/week3sql.php"> Week 3 select all script</a></li>
+            <li><a href="week3/week3sql2.php"> Week 3 select Marvel Studios script</a></li>
+            <li><a href="week3/week3sql3.php"> Week 3 select over 2010 script</a></li>
+            <li><a href="week3/week3php4.php"> Week 3 select XMen script</a></li>
+        </ul>
+    </nav>
+
+    <article class="article">
+        <h1>Web Dev</h1>
+        <p>It;s Mental Cool eh.</p>
+        <p>Oh Aye.</p>
+        <p><strong>This text is Angry!</strong></p>
+    </article>
+
+    <footer>Copyright © J.P Media</footer>
+</div>
+
 </body>
 </html>

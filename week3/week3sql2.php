@@ -21,7 +21,7 @@ if ($db->connect_errno){
 
 }
 
-
+Echo "--------Marvel Movies--------";
 //create a sql query from string
 $sql_query = "SELECT * FROM marvelmovies WHERE productionstudio LIKE 'Marvel Studios'";
 //execute the query

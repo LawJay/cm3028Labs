@@ -21,7 +21,7 @@ if ($db->connect_errno){
 
 }
 
-
+Echo "--------Movies over 2010--------";
 //create a sql query from string
 $sql_query = "SELECT * FROM marvelmovies WHERE yearReleased > 2010";
 //execute the query

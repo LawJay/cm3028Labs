@@ -21,7 +21,7 @@ if ($db->connect_errno){
 
 }
 
-
+Echo "--------All Movies--------";
 //create a sql query from string
 $sql_query = "SELECT * FROM marvelmovies";
 //execute the query

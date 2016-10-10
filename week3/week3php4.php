@@ -21,7 +21,7 @@ if ($db->connect_errno){
 
 }
 
-
+Echo "--------X - Men Movies--------";
 //create a sql query from string
 $sql_query = "SELECT * FROM marvelmovies WHERE title LIKE '%X-Men%'";
 //execute the query

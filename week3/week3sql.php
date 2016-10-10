@@ -23,8 +23,15 @@ if ($db->connect_errno){
 
 
 //create a sql query from string
-$sql_query = "SELECT * FROM superheroes;
+$sql_query = "SELECT * FROM superheroes";
 //execute the query
 $result = $db->query($sql_query);
+//process
+while ($row = $result->fetch_array()){
+  echo "<p>".$row['superheroName']."</p>";
+ 
+}
+
+$result->close();
 
 

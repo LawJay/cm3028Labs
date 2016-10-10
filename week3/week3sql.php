@@ -28,7 +28,7 @@ $sql_query = "SELECT * FROM superheroes";
 $result = $db->query($sql_query);
 //process
 while ($row = $result->fetch_array()){
-  echo "<p>".$row['superheroName']."</p>";
+  echo "<p>".$row['title']."</p>";
  
 }
 

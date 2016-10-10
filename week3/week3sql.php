@@ -23,7 +23,7 @@ if ($db->connect_errno){
 
 
 //create a sql query from string
-$sql_query = "SELECT * FROM superheroes";
+$sql_query = "SELECT * FROM marvelmovies";
 //execute the query
 $result = $db->query($sql_query);
 //process

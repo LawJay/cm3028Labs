@@ -5,7 +5,7 @@
 <body>
 <h1> Where would you like to say hello to?</h1>
 
-<a href="1608354.azurewebsites.net/helloselector.php">Earth</a>
+<a href="helloprinter.php?planet=earth">Earth</a>
 
 </body>
 

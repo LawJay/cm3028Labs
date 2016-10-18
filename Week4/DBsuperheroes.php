@@ -13,3 +13,12 @@ $lastname = $_POST["lastname"];
 $superpower = $_POST["power"];
 
 $sql = "INSERT INTO superheroes (firstname,lastname,power) VALUES ('$firstname','$lastname','$superpower')";
+
+if (mysqli_query($db, $sql)) {
+}else{
+    echo "Error: " . $sql . "<br>" . mysqli_error($db);
+}
+
+header("location:index.php");
+
+?>

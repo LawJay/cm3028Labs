@@ -8,7 +8,7 @@
 
 session_start();
 $accesslevel = $_COOKIE['access_level_cookie'];
-echo $accesslevel;
+echo "<p>Access level is {$accesslevel}";
 displayaccesslevelinformation($accesslevel);
 function displayaccesslevelinformation($accesslevel)
 {
@@ -20,7 +20,10 @@ function displayaccesslevelinformation($accesslevel)
         echo "<p style = \"background-color: red\">You are currently logged in as a root user</p>";
         echo "<p style = \"background-color: red\">You now have access to additional administrative features</p>";
         }
+else{
+    echo "<p style = \"background-color: blue\">Not logged in</p>";
 
+}
 
 }
 ?>

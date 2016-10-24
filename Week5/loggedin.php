@@ -21,5 +21,6 @@ function displayaccesslevelinformation($accesslevel);
         echo "<p style = \"background-color: red\">You now have access to additional administrative features</p>";
         }
 
-    
+
 }
+?>

@@ -7,7 +7,7 @@
  */
 
 $username = $_post["name"];
-$pasword = $_post["password"];
+$password = $_post["password"];
 if ($username == "username" && $password=="password")
 {
     setcookie('access_level_cookie','standarduser');

@@ -6,8 +6,8 @@ session_start();
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>The Blog of Charles Babbage</title>
-    <link rel="stylesheet" href="style/style.css">
+    <title>The Blog of D'Jambo Unchained</title>
+    <link rel="stylesheet" href="../../style/style.css">
 
 </head>
 

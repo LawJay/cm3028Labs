@@ -13,7 +13,7 @@ session_start();
 
 <body>
 <header>
-    <h1>The Blog of Charles Babbage</h1>
+    <h1>The Blog of D'Jambo Unchained</h1>
     <nav>
         <ul>
             <li><a href="./">Home Pagezzz</a></li>

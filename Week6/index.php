@@ -1,28 +1,26 @@
 <?
-
-ini_set('display_errors', 1);
-ini_set('display_startup_errors', 1);
-error_reporting(E_ALL);
-
 define('INCLUDE_DIR', dirname(__FILE__) . '/inc/');
 $rules = array(
-//
-//main pages
-//
+    //
+    //main pages
+    //
     'about' => "/about",
     'contactus' => "/contactus",
     'blog' => "/blog",
     'blog_article' => "/blog/(?'blogID'[\w\-]+)",
-//
-//Admin Pages
-//
+    //
+    //Admin Pages
+    //
     'login' => "/login",
     'create_article' => "/createarticle",
     'logout' => "/logout",
-//
-// Home Page
-//
+    //
+    // Home Page
+    //
     'home' => "/"
+    //
+    // Style
+    //
 );
 $uri = rtrim(dirname($_SERVER["SCRIPT_NAME"]), '/');
 $uri = '/' . trim(str_replace($uri, '', $_SERVER['REQUEST_URI']), '/');

@@ -15,7 +15,7 @@ h1, h2{
 }
 /* HEADER */
 header{
-    background-color: #ff29e9;
+    background-color: #393939;
     padding-top: 14px;
 }
 header>h1{
@@ -23,13 +23,13 @@ header>h1{
 }
 /* MAIN */
 main{
-    background-color: #62cc5f;
+    background-color: #6E6E6E;
     min-height: 300px;
     padding: 15px;
 }
 /* FOOTER */
 footer{
-    background-color: #6a86eb;
+    background-color: #FF5A09;
     padding: 5px 0 5px 10px;}
 /* NAVIGATION */
 nav ul {
@@ -37,7 +37,7 @@ nav ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #FF9900;
 }
 nav li {
     float: left;

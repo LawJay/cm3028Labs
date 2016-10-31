@@ -8,10 +8,10 @@ h1, h2, p{
     margin-top: 0;
 }
 *{
-    font-family: 'Open Sans', cursive;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
 }
 h1, h2{
-    font-family: 'Pacifico', cursive;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
 }
 /* HEADER */
 header{

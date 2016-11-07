@@ -22,7 +22,7 @@ $result = $db->query($query);
 if (!$result) {
     die('Nothing in result: ');
 }
-
+//AIzaSyDvJrab9q1MPlJ4yCuv_Br5BGyP9xP5J80 
 header("Content-type: text/xml");
 
 // Iterate through the rows, adding XML nodes for each

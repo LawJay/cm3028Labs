@@ -6,7 +6,7 @@
             type="text/JavaScript"></script>
 
     <script type="text/JavaScript">
-
+        var infoWindow = new google.maps.InfoWindow;
         var customIcons = {
             restaurant: {
                 icon: 'http://labs.google.com/ridefinder/images/mm_20_blue.png'
@@ -31,6 +31,10 @@
                             parseFloat(markers[i].getAttribute("lat")),
                             parseFloat(markers[i].getAttribute("lng")));
                     var type = markers[i].getAttribute("type");
+                    var name = markers[i].getAttribute("name");
+                    var html = "<b>" + name + "</b> <br/>" + type;
+
+                    var type = markers[i].getAttribute("type");
                     var icon = customIcons[type] || {};
 
                     var marker = new google.maps.Marker({
@@ -38,9 +42,16 @@
                         position: point,
                         icon: icon.icon
                     });
+                    bindInfoWindow(marker, map, infoWindow, html);
                 }
             });
 
+            function bindInfoWindow(marker, map, infoWindow, html) {
+                google.maps.event.addListener(marker, 'click', function() {
+                    infoWindow.setContent(html);
+                    infoWindow.open(map, marker);
+                });
+            }
 
 
         }

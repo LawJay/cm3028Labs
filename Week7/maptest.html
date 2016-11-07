@@ -12,7 +12,7 @@
                 icon: 'http://labs.google.com/ridefinder/images/mm_20_blue.png'
             },
             bar: {
-                icon: 'http://labs.google.com/ridefinder/images/mm_20_red.png'
+                icon: 'https://www.dailyinfo.co.uk/dimages/icons/marker-icon.png'
             }
         };
 
@@ -32,7 +32,8 @@
                             parseFloat(markers[i].getAttribute("lng")));
                     var type = markers[i].getAttribute("type");
                     var name = markers[i].getAttribute("name");
-                    var html = "<b>" + name + "</b> <br/>" + type;
+                    var address = markers[i].getAttribute("address");
+                    var html = "<b>" + name + "</b> <br/>" + type + "</b> <br/>" + address;
 
                     var type = markers[i].getAttribute("type");
                     var icon = customIcons[type] || {};

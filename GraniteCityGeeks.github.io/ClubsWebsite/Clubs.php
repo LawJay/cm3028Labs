@@ -25,9 +25,7 @@ include("Header&Footer/header.php");
     <h2>This is my bottom Content</h2>
 </div>
 
-<footer class="grid-100">
-    <h2>This is my footer</h2>
-</footer>
-
-</body>
+<?php
+include("Header&Footer/footer.php");
+?>
 </html>

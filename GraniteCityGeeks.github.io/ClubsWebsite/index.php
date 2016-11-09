@@ -4,11 +4,11 @@ $rules = array(
     //
     //main pages
     //
-    'Clubs' => "/Clubs",
+    'clubs' => "/clubs",
     //
     //Admin Pages
     //
-    'Login' => "/Login",
+    'login' => "/login",
     //
     // Home Page
     //

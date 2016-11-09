@@ -1,3 +1,3 @@
 <footer>
-    <p>(c)2016 - J.P Media</p>
+    <p>(c)2016 - Assessment</p>
 </footer>

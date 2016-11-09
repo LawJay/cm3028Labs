@@ -5,7 +5,7 @@ echo "
     <h2>Jordan & Joe</h2>
 
     <div id="section1" class="grid-33 tablet-grid-50 mobile-grid-100">
-        <p>This is my first section</p>
+        <p>Progress</p>
     </div>
 
     <div id="section2" class="grid-33 tablet-grid-50 mobile-grid-100">

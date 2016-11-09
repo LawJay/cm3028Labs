@@ -15,7 +15,7 @@ session_start();
     <nav class="grid-100 grid-parent">
         <ul>
             <li class="mobile-grid-100 grid-15 tablet-grid-20"><a href="../">Home Page</a></li>
-            <li class="mobile-grid-100 grid-15 tablet-grid-20"><a href="blog">My Blog</a></li>
+            <li class="mobile-grid-100 grid-15 tablet-grid-20"><a href="/GraniteCityGeeks.github.io/ClubsWebsite/inc/Clubs.php">Clubs</a></li>
             <li class="mobile-grid-100 grid-15 tablet-grid-20"><a href="about">About Me</a></li>
             <li class="mobile-grid-100 grid-15 tablet-grid-20"><a href="contactus">Contact Me</a></li>
             <?

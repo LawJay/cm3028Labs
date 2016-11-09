@@ -14,7 +14,7 @@ session_start();
     <h1>The Blog of Charles Babbage</h1>
     <nav class="grid-100 grid-parent">
         <ul>
-            <li class="mobile-grid-100 grid-15 prefix-25 tablet-grid-20"><a href="../">Home Page</a></li>
+            <li class="mobile-grid-100 grid-15 tablet-grid-20"><a href="../">Home Page</a></li>
             <li class="mobile-grid-100 grid-15 tablet-grid-20"><a href="blog">My Blog</a></li>
             <li class="mobile-grid-100 grid-15 tablet-grid-20"><a href="about">About Me</a></li>
             <li class="mobile-grid-100 grid-15 tablet-grid-20"><a href="contactus">Contact Me</a></li>

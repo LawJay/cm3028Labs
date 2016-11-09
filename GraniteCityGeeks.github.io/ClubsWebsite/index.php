@@ -5,15 +5,10 @@ $rules = array(
     //main pages
     //
     'Clubs' => "/Clubs",
-    'contactus' => "/contactus",
-    'blog' => "/blog",
-    'blog_article' => "/blog/(?'blogID'[\w\-]+)",
     //
     //Admin Pages
     //
     'Login' => "/Login",
-    'create_article' => "/createarticle",
-    'logout' => "/logout",
     //
     // Home Page
     //
@@ -30,6 +25,4 @@ foreach ($rules as $action => $rule) {
         exit();
     }
 }
-// nothing is found so handle the 404 error
-include(INCLUDE_DIR . '404.php');
 ?>

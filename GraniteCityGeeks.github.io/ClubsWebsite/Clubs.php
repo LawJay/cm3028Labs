@@ -2,7 +2,7 @@
 include("Header&Footer/header.php");
 ?>
 <main class="grid-75 mobile-grid-100">
-    <h2>Jordan & Joe</h2>
+    <h2>Jordan & Joe yo</h2>
 
     <div id="section1" class="grid-33 tablet-grid-50 mobile-grid-100">
         <p>This is my first section</p>

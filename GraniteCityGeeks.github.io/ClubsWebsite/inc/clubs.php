@@ -8,4 +8,3 @@ echo "
 ";
 include("Header&Footer/footer.php");
 ?>
-</html>

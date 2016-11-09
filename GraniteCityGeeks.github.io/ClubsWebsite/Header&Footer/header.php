@@ -6,8 +6,8 @@ session_start();
 <head>
     <meta charset="UTF-8">
     <title>The Blog of Charles Babbage</title>
-    <link rel="stylesheet" href="/GraniteCityGeeks.github.io/ClubsWebsite/CoreCSS/style.css">
-    <link rel="stylesheet" href="/GraniteCityGeeks.github.io/ClubsWebsite/CoreCSS/unsemantic-grid-responsive-tablet.css">
+    <link rel="stylesheet" href="/GraniteCityGeeks.github.io/ClubsWebsite/inc/CoreCSS/style.css">
+    <link rel="stylesheet" href="/GraniteCityGeeks.github.io/ClubsWebsite/inc/CoreCSS/unsemantic-grid-responsive-tablet.css">
 </head>
 <body>
 <header class="grid-100 grid-parent">
@@ -23,7 +23,7 @@ session_start();
                 echo "<li><a href='createarticle'>Create Article</a></li>";
                 echo "<li><a href='logout'>Logout</a></li>";
             } else {
-                echo "<li><a href='/GraniteCityGeeks.github.io/ClubsWebsite/Login.php'>Login</a></li>";
+                echo "<li><a href='/GraniteCityGeeks.github.io/ClubsWebsite/inc/Login.php'>Login</a></li>";
             }
             ?>
         </ul>

@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<link rel="stylesheet" href="../CoreCSS/style.css">
-<link rel="stylesheet" href="../CoreCSS/unsemantic-grid-responsive-tablet.css">
+    <link rel="stylesheet" href="../CoreCSS/style.css">
+    <link rel="stylesheet" href="../CoreCSS/unsemantic-grid-responsive-tablet.css">
 </head>
 <body>
-
 
 <main class="grid-75 mobile-grid-100">
     <h2>Jordan & Joe yo</h2>

@@ -7,6 +7,7 @@ session_start();
     <meta charset="UTF-8">
     <title>The Blog of Charles Babbage</title>
     <link rel="stylesheet" href="/GraniteCityGeeks.github.io/ClubsWebsite/CoreCSS/style.css">
+    <link rel="stylesheet" href="/GraniteCityGeeks.github.io/ClubsWebsite/CoreCSS/unsemantic-grid-responsive-tablet.css">
 </head>
 <body>
 <header>

@@ -1,6 +1,6 @@
-<php
+<?php
     include("Header&Footer.header.php");
-echo "
+?>
 <main class="grid-75 mobile-grid-100">
     <h2>Jordan & Joe</h2>
 
@@ -31,5 +31,4 @@ echo "
 
 </body>
 </html>
-";
 ?>

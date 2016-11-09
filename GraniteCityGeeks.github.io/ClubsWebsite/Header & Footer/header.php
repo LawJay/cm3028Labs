@@ -1,9 +1,12 @@
+<?
+session_start();
+?>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>The Blog of Charles Babbage</title>
-    <link rel="stylesheet" href="/CoreCSS/style.css">
-    <link rel="stylesheet" href="/CoreCSS/unsemantic-grid-responsive-tablet.css">
+    <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
 <header>

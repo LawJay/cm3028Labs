@@ -4,11 +4,11 @@ $rules = array(
     //
     //main pages
     //
-    'Clubs' => "/Clubs",
+    'Clubs' => "/GraniteCityGeeks.github.io/ClubsWebsite/inc/Clubs.php",
     //
     //Admin Pages
     //
-    'Login' => "/Login",
+    'Login' => "/GraniteCityGeeks.github.io/ClubsWebsite/inc/Login.php",
     //
     // Home Page
     //

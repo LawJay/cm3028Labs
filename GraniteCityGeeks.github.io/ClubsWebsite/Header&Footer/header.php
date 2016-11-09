@@ -10,14 +10,14 @@ session_start();
     <link rel="stylesheet" href="/GraniteCityGeeks.github.io/ClubsWebsite/CoreCSS/unsemantic-grid-responsive-tablet.css">
 </head>
 <body>
-<header>
+<header class="grid-100 grid-parent">
     <h1>The Blog of Charles Babbage</h1>
-    <nav>
+    <nav class="grid-100 grid-parent">
         <ul>
-            <li><a href="../">Home Page</a></li>
-            <li><a href="blog">My Blog</a></li>
-            <li><a href="about">About Me</a></li>
-            <li><a href="contactus">Contact Me</a></li>
+            <li class="mobile-grid-100 grid-15 prefix-25 tablet-grid-20"><a href="../">Home Page</a></li>
+            <li class="mobile-grid-100 grid-15 tablet-grid-20"><a href="blog">My Blog</a></li>
+            <li class="mobile-grid-100 grid-15 tablet-grid-20"><a href="about">About Me</a></li>
+            <li class="mobile-grid-100 grid-15 tablet-grid-20"><a href="contactus">Contact Me</a></li>
             <?
             if (isset($_SESSION['username'])) {
                 echo "<li><a href='createarticle'>Create Article</a></li>";
